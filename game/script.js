@@ -70,12 +70,15 @@ if(result.includes("Draw")){
 
 if(cpu>user){
   document.querySelector('#show').textContent='YOU LOSE!!! :(';
+  document.querySelector('#img').src='https://www.marketingdirecto.com/wp-content/uploads/2018/11/loser.jpg'
 }
 if(cpu<user){
   document.querySelector('#show').textContent='YOU WON!!! :)';
+  document.querySelector('#img').src='https://media2.giphy.com/media/lZTvTGEGKU6gnQ2wBr/giphy.gif'
 }
 if(cpu==user){
   document.querySelector('#show').textContent='YOU DRAW!!! :/';
+  document.querySelector('#img').src='https://qph.cf2.quoracdn.net/main-qimg-f7e32c27f297a97f280eac9edb37a672'
 }
 
   let final="CPU Won "+cpu+ " times - You Won "+user+" times. You Draw "+draw+" times.";
