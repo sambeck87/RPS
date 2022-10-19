@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.center{
+text-align: center;
+}
+
+#rules{
+    margin-left: 33%;
+    margin-right: 33%;
+    width: 33%;
+}
+.links{
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color: red;
+}
+a:visited{
+    color:rgb(151, 243, 3);
+    text-decoration:wavy;
+}
+a:link{
+    color:rgb(35, 56, 3);
+}
