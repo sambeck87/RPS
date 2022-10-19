@@ -67,8 +67,18 @@ if(result.includes("Draw")){
   draw++;
 }
 }
+
+if(cpu>user){
+  document.querySelector('#show').textContent='YOU LOSE!!! :(';
+}
+if(cpu<user){
+  document.querySelector('#show').textContent='YOU WON!!! :)';
+}
+if(cpu==user){
+  document.querySelector('#show').textContent='YOU DRAW!!! :/';
+}
+
   let final="CPU Won "+cpu+ " times - You Won "+user+" times. You Draw "+draw+" times.";
   return final;
 }
-
 console.log(game());
